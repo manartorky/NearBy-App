@@ -29,7 +29,8 @@ Longitude
 * [Glide](https://github.com/bumptech/glide) for loading images from remote servers.
 * [Room](https://developer.android.com/topic/libraries/architecture/room) as presistance library. 
 * [Gson](https://github.com/google/gson) as data parser.
-* [androidX libraries](https://developer.android.com/jetpack/androidx) as alternative for support library.
+* [Androidx](https://developer.android.com/jetpack/androidx) as alternative for support library.
 * [Android LifeCycle](https://developer.android.com/topic/libraries/architecture) to enable components to be lifecycle aware.
+* [Data Binding Library](https://developer.android.com/topic/libraries/data-binding) for binding UI components
 
 
