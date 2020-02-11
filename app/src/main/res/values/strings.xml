@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Near By</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="venue_image">Venue Image</string>
+
+    <string name="permission_dialog_title">Permission required</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="ok">OK</string>
+    <string name="msg_enable_gps">Please enable GPS as its needed for core functionality</string>
+    <string name="empty_list_msg">No data found !!</string>
+    <string name="api_error">Oops!! Something went wrong !! </string>
+    <string name="loading">Please wait …</string>
+    <string name="realtime_switch">Realtime updates</string>
+    <string name="try_again">Try Again</string>
+    <string name="msg_realtime_enabled">Realtime updates has been enabled.</string>
+    <string name="msg_realtime_disabled">Realtime updates has been disabled.</string>
+
+</resources>
