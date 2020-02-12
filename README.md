@@ -21,10 +21,11 @@ Longitude
 * Signup and get your own creds from [FourSquare](https://foursquare.com/developers/apps)
 * Clone the project.
 * Inside build.gradle for your app module. Add your CLIENT_ID & CLIENT_SECRET
-* Build and run the porject.
+* Build and run the project.
  
 ## Concerns 
 * The API may hit the maximum quota. So, you may need to repeat the third step in the Setup guide. 
+* On Kitkat devices. Location mode should be "High Accuracy" otherwise, location detection problems may occur. 
 
 ## Built with
 * MVVM as presentation layer.
