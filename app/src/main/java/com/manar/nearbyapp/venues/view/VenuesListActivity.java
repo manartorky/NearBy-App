@@ -66,10 +66,10 @@ public class VenuesListActivity extends AppCompatActivity implements LocationMan
         binding.realTimeSwitch.setChecked(venuesViewModel.isRealtimeUpdate());
         binding.realTimeSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                Toast.makeText(this,getString(R.string.msg_realtime_enabled),Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getString(R.string.msg_realtime_enabled), Toast.LENGTH_SHORT).show();
                 startLocationUpdates();
             } else {
-                Toast.makeText(this,getString(R.string.msg_realtime_disabled),Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getString(R.string.msg_realtime_disabled), Toast.LENGTH_SHORT).show();
                 stopLocationUpdates();
             }
             venuesViewModel.setRealTimeUpdate(isChecked);
@@ -110,7 +110,9 @@ public class VenuesListActivity extends AppCompatActivity implements LocationMan
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        disposable.dispose();
+        if (disposable != null) {
+            disposable.dispose();
+        }
     }
 
     private void showLoading() {

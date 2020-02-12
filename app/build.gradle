@@ -16,13 +16,13 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField "String", "CLIENT_ID", "\"JJK0KW32YHEC3EOZLJ35U1FYGV1IURWJVP5MC25JABLYYDMD\""
-            buildConfigField "String", "CLIENT_SECRET", "\"SM5KK1XL3KD1BP5VHTKP2GAQQBBOOQTD5X4UUKJKTGQH0IJI\""
+            buildConfigField "String", "CLIENT_ID", "\"\""
+            buildConfigField "String", "CLIENT_SECRET", "\"\""
             buildConfigField "String", "BASE_URL", "\"https://api.foursquare.com/v2/\""
         }
         debug {
-            buildConfigField "String", "CLIENT_ID", "\"JJK0KW32YHEC3EOZLJ35U1FYGV1IURWJVP5MC25JABLYYDMD\""
-            buildConfigField "String", "CLIENT_SECRET", "\"SM5KK1XL3KD1BP5VHTKP2GAQQBBOOQTD5X4UUKJKTGQH0IJI\""
+            buildConfigField "String", "CLIENT_ID", "\"\""
+            buildConfigField "String", "CLIENT_SECRET", "\"\""
             buildConfigField "String", "BASE_URL", "\"https://api.foursquare.com/v2/\""
         }
     }
