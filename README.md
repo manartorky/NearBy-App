@@ -17,6 +17,14 @@ Longitude
 - The App should remember user choices for next launches.
 - Min SDK 19
 
+## Setup guide.
+* Signup and get your own creds from [FourSquare](https://foursquare.com/developers/apps)
+* Clone the project.
+* Inside build.gradle for your app module. Add your CLIENT_ID & CLIENT_SECRET
+* Build and run the porject.
+ 
+## Concerns 
+* The API may hit the maximum quota. So, you may need to repeat the third step in the Setup guide. 
 
 ## Built with
 * MVVM as presentation layer.
